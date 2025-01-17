@@ -2,6 +2,7 @@
 
 import { TasksCompleted } from '@/components/TasksCompleted'
 import React, { useEffect, useState } from 'react'
+import { auth, currentUser } from '@clerk/nextjs/server'
 
 
 export default function Completed() {
